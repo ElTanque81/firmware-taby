@@ -29,7 +29,6 @@ With the stock V1 Taby image the screen stays black on V1.1.
 
 ## Status
 
-Tested on one V1.1 board: the patched Taby build runs and the display works
-(touch was not tested separately). The Vieri sketch shows its face on the same
+Tested on one V1.1 board: the patched Taby build runs, and display and touch work. The Vieri sketch shows its face on the same
 board. The build uses `idf.py` directly, not `tools/build.py`, because
 that script's source-digest check is not meant for modified sources.
